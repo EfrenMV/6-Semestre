@@ -116,3 +116,88 @@ Busca reducir el tiempo de Ciclo.
 **Ingeneria Web**
 **Ganar-Ganar**
 Busca que las dos partes queden en acuerdos mutuamente beneficiosos ya sea monetario, proyectos u cualquier otro.
+
+**Ingeneria de Requisitos**
+Actividades para validar el documento de requisitos de sistema practicamente lo queremos para saber lo que quiere, que no quiere y como realizar el proyecto a futuro, esto se tiene documentar par darle seguimiento a futuro. 
+
+Estos son importantes por que un error en los requisitos puede valer alrededor de 10-15% del coste total del proyecto.
+
+Es necesario organziarlos por que se llegan a tener demasiados requisitos, entonces para saber diferenciar entre ellos se necesita tenerlos bien categorizados.
+
+- No reflejan las necesidades reales del cliente
+- Puede tener mal entendidos
+
+**Dificultades**
+Si son ambiguos pueden ser interpretados por diferentes formas por desarrolladores y usuarios.
+
+esto puede ser solucionado con un visor de texto que muestre el contenido de los documentos.
+
+Los requisitos deben ser completos y consistentes, esto puede llegar a ser imposible de cumplor al 100%.
+
+**Requisito de Dominio** El diseño en especifico
+
+#### Niveles de requisitos
+
+- Usuarios: 
+Declaraciones echas en un lenguaje natural, ya sean tablas digramas etc..
+Este provee sus restricciones operacionales
+- Sistema:
+Documento estructurado con las descripciones detalladas
+- Software:
+Descripcion del disñeo de software
+
+##### Ejemplos
+
+
+**USuario**:
+El software provve un medio de representar y acceder a los fichereos externos creados por otras herramientas
+
+**De sistema**
+El usuario selecciona los comunetos
+
+**Software**
+guarda los archivos del sistema en jpg
+
+Usuarios: -> Gestores clientes, Usuarios Finales, Ingenieros Clientes, Gestores cOntratistas, Arquitectos del sistema
+
+Sistema ->
+
+Software ->
+
+#### Niveles- Usuarios
+Requisitos de manera comprensible de lenguaje natural, tablas o diagramas de lo que se necesite, esto puede traer problemas por la falta de claridad teniendo confuciones entre requisitos como  a su ves se clasifiquen mal los requisitos funcionales y los no funcionales.
+
+Estos pueden responder a varios origens
+- Domino del problema
+- Intereses de la organizacion
+- Necesidades del usuario finales del software
+
+#### Niveles-Dominio
+Requisitos de dominio describen caracteristicas y necesidades propias del dominio (comunes de todas las organizaciones de ese sector).
+
+Ejemplo del dominio de Biblioteclas:
+interfaz de usuario sera comun para acceder a todas las interfaces.
+
+Los problemas de los requisitos de dominio pueden ser el comprender los requisitos puesto que si se le habla con lenguaje de software el usuario no podra entender a lo que se refiere.
+
+#### Niveles-Sistema
+Son especificaciones mas detalladas que los requisitos de usuario de las funciones, servicios y restricciones del sistema. Son la base para el diseño de sistema.
+
+#### Tipos
+Se pueden clasificar en vace de dos criterios
+Producstos vs Procesos
+Funcionales Vs No Funcionales
+
+**Producto**
+Cumplir todos los requisitos para el resultado final.
+
+**Proceso**
+El como y cuando se realizaran las cosas.
+
+**Funcionales**
+Las funciones que debera comportarese el software ante situaciones
+
+**No funcionales**
+El como no deberia comportarse el software ante ciertas situaciones
+
+#### Mecanismos para poder recoger datos y tener la documentacion necesaria 
