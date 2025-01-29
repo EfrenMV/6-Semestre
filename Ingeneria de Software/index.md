@@ -201,3 +201,30 @@ Las funciones que debera comportarese el software ante situaciones
 El como no deberia comportarse el software ante ciertas situaciones
 
 #### Mecanismos para poder recoger datos y tener la documentacion necesaria 
+
+1. Lluvia de ideas
+    - Facilitador: recoge las ideas del grupo.
+    - Se expresa por targetas
+    - Una idea maxima.
+    - Clasifica las tarjetas deacuerdo.
+
+4. Analisis de interfaces:
+
+5. Entrevistas
+
+6. Observación
+Una persona observa al cliente para ver que es lo que deberdad necesitara en su lugar de trabajo, esto observando su rutina diaria.
+
+7. Prototipos
+Los analistas generan prototipos previos para que el usaurio observe una expriencia previa.
+
+8. Encuestas
+PReguntas cerradas e inclusive abiertas donde el usuario contestara dependiendo ssus necesidades
+
+10. Tecnicas grupales de toma de decisiones
+- Unanimidad
+- Mayoria
+- Pluralidad
+- Dictadura 
+
+11. Estudios Comparativos 
