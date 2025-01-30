@@ -53,13 +53,64 @@ Realizado por el origen donde se le agrega la ruta y el numero para saberlo iden
 Salto: Mover los paquetes por varios ruters hasta llegar a destino.
 El host de destino sabra que es el cuando su ip coincida con la ip de destino
 
-### Modulo 6.- Enlace de datos
+### Modulo 6.- Enlace de datos Capa 2
+Esta es responsable en las comunicaciones de la tardeta de interfaz de red a otra tarjeta de red
+
+- Permite que las capas superiores accedan a los medios
+- Acepta datos generalmente paquetes de Capa 3 (PV4 o IPV6) y los encapsula en tramas de Capa 2
+- Controla como los datos se colcoan y reciben en los medios
+- INtercambia tramas
+
+**Nodo:** Dispositivo que puede crea, almacenar y mandar datos, este puede ser un portatil, movil o un dispositivo intermetio como un Ethernet.
+
+Este tendria que adaptarse cada vez que se desarrolle una nueva tecnologia de red o una IP
+
+**6.1.2 Subcapas de enclaces de datos IEEE 802 LAN/MAN**
+**Control de enlace logico (LLC):** Se comunica entre el software de red de capas superiores y el hardware del dispositivo en las capas inferiores
+
+*Asegura que la información a accesoa  datos sea correcta*
+
+**Control de acceso a medios (Mac):**
+ 
+Son los medios.
+**802.3:** Estos son los cables, vincula el software y Hardware para mandar los datos a traves de los cables.
+**802.11:** Este es wifi, mandar datos sin cables.
+**802.15** El Bluethot 
+
+Este encapsula en formato de trama por su PDU
+
+- Delimitacion de tramas: Proporciona sincronizacion entre los nodos de transmision y de recepcion
+- Direccionamiento: Se mandan forzosamente por el mismo medio
+- Deteccion de errores: Operacion con bits donde se hacen operaciones en los dos lados, si existe una discrepancia significa que hay un error
+
+**6.1.3 Provisión de acceso a los medios**
+En cada salto un router utiliza las siguientes funciones
+- Acepta una trama proveniente de un medio
+- DEsencapsula la trama
+- Vuelve a encapsular el paquete a una trama nueva
+- Renvia la nueva trama adecuada al medio
+
+**6.1.4* Estandares de la cpa de enlace de datos**
+Organizaciones de ingeneria:
+- IEEE
+- ANSI
+- ITSI
+- OSI
+
+### PDU-Capas
+6.-
+5.-
+4.- **Segmentos**
+3.- **Paquete**
+2.- **Trama**
+1.- 
+
 ### Modulo 8.- Encapsulación Ip 
 
 Esto mediante la PDU de la capa de transporte y el PDU de la capa de red se encapsula la ip para ser conciderado un paquete.
 
 **Caracteristicas de IP**
-Protocolo con sobrecarga baja.
+Protocolo con sobrecargsa baja.
 Diseñado para rastrear ni administrar el flunjo de paquetes funciones de la capa TPC
 
 **TCP**:
@@ -88,7 +139,7 @@ Caracteristica de la red:
 **Capas de enlaces de datos**
 Utilizando dirección Marck
 D8-C0-A6-4E-CD-13
-OUI: Identificador unico de organización, siendo los primeros D8-C0-A6 (Fabricante)
+**OUI**: Identificador unico de organización, siendo los primeros D8-C0-A6 (Fabricante)
 
 **Fragmentación**
 Divide los paquetes Ip para viajar en medio con una MTU
@@ -99,3 +150,5 @@ No se puede fragmentar una ipv6
 Envía segmentos para ser encapsulados en un paquete IPv4 o IPv6
 
 ### 8.2.2 Campos de encabezado de paquete ipv4
+
+

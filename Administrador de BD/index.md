@@ -15,3 +15,15 @@ SGBD mas usados
 - SQL Server
 - SQLite
 - MongoDB
+
+
+|Base de datos|   
+|------------|
+|Selección|   
+|Preprocesado|
+|Selección de caracteristicas|
+|Extracción de conocimiento|
+|Evolución|
+|Modelo clasificador de conocimientos|
+
+
