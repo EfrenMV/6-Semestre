@@ -228,3 +228,113 @@ PReguntas cerradas e inclusive abiertas donde el usuario contestara dependiendo 
 - Dictadura 
 
 11. Estudios Comparativos 
+
+#### Objetivos de Aprendizaje
+
+- Conocer la norma IEEE 830
+
+1. Contrato
+    - Documetno obligatorio con el provedor
+
+2. Cliente
+    - Personas que pagan por el producto, el cliente y el provedor pueden ser miembros de la misma organización.
+
+3. Proveedor
+    - Persona que produce un producto para un cliente
+
+4. Usuario
+    - Perona que operan o actuan reciprocramente.
+
+**Consideraciones para una buena ERS**
+
+**Naturaleza de la ERS**
+La SRS son especificaciones para un producto particular de software, programa o juego de programas que realizan ciertas funciones en un ambiente especifico.
+
+**La SRS puede escribirse por**
+
+**Ambiente de la ERS**
+- El Software puede contener toda la funcionalidad del proyecto 
+- Puede ser parte de un sistema mas grande 
+- En el ultimo caso habra una ERS que 
+    - Declare las interfases entre el sistema y ese software modulaer 
+    - Indica la funcionalidad del software modular
+
+**Caracteristicas de una buena ERS**
+- Correcta
+- Inequivoca
+- Completa
+- COnsistema
+- Organizada por orden de importancia y/o estabilidad, escencial, condicionada u opcional
+- Comprobable
+- Modificable
+- Trazable
+- Cliente y Proveedor en trabajo conunto 
+- Se conozca mas a cerca del contenido del proyecto
+- Se llegue a detalles
+- Avance el proyecto
+
+**Prototipos**
+- Ayudan a enteder los problemas y/o Soluciones
+- Muestra posibles comportamientos
+- Dan mas estabilidad a la ERS
+
+- Una ERS debe especificar
+    - Que funciones seran realizadas
+    - Con que datos
+    - Para producir que resultados
+    - EN que situacion
+    - Para quien
+
+- Una ERS no debe especificar
+    - Modulos en que divide el software
+
+**Diseño en la ERS**
+- Necesidad de especificar condiciones de diseño en la ERS para casos especiales, con el fin de imponer restricciones de diseño 
+    - Seguridad
+    - Confiabilidad
+
+**Requisitos del proyecto en la ERS**
+- La ERS debe estar dirigida al producto de software no al proceso de producir el software
+
+- Algunos requisitos del proyecto, acordados entre el cliente y el provedor
+    - Costo
+    - TIempo de entrega
+
+**Partes de una ERS**
+- Tabla de contenido
+- Intreoduccion
+- Proposito
+- Alcance
+- Deficiones, Siglas y abreviaciones
+- Referencias
+- Descrupcion global de la ERS
+-
+1. Proposito
+    - Delinear el propostio de la ERS
+    - Que publico va dirigido
+
+2. Alcance
+    - Indentifica el los productos de sofftware a construir
+
+3. Referencias
+    - Proporciona lista completa de todo los documentos de ERS
+    - Cada documento por tipo, fecha, numero y referencias
+
+4. Descripcion global de la ERS
+    - DEscribir el contenido de la ERS
+
+5. Perspectiva del producto
+    - Interfases del sistema
+    - Interfases del usuario
+
+6. Restricciones    
+    - Politicas reguladoras
+    - Limitaciones del Hardware
+    - Interfases con otras aplicaciones
+    - Operaciones en paralelo
+    - Funciones en auditoria
+
+7. Requisitos especificos
+    - Deben declararse los requisitos especificos de conformidad con todas las caracteristicas descritas en la seccion de "caracteristicas de usuario"
+
+    
