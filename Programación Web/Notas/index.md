@@ -3,6 +3,7 @@
 La **informacion** que manejamos en web es **plana**
 **http:** Sin cifrar
 **https:** Con cifrado mas seguro
+**Mook:** En maquetamos para despues tirar lineas de codigo
 
 #### XML
 El primero que se creo donde nos apollavamos con un navegador

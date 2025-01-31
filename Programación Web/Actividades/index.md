@@ -20,7 +20,9 @@ Usar IA si o si, ya sea
 - Busqueda con IA
 
 
-### Proyectos
+<h3> Proyectos </h3>
+
 1. Artesanal
 2. Todo lo disponible para la web no usable para el proyecto 1
 3. Uno sorpresa con dos dias para resolverlo
+
