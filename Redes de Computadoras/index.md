@@ -190,5 +190,8 @@ ARC
 ![Imagen de los medios de red](Imagenes/Medios_Red.jpg)
 
 **Diagramas de topología fisica**: Identifica la ubicación fisica de los dispositivos
+![Iamagen tologia Fisica](Imagenes/Topologia_Fisica.jpg)
 
-**Diagramas de topologia lígica**: Identifica dispositivos, puertos y el esquepa de direccionamiento IP.
+**Diagramas de topologia lígica**: Identifica dispositivos, puertos y el 
+esquepa de direccionamiento IP.
+![Iamagen tologia Logica](Imagenes/Topologia_logica.jpg)
