@@ -337,4 +337,6 @@ La SRS son especificaciones para un producto particular de software, programa o 
 7. Requisitos especificos
     - Deben declararse los requisitos especificos de conformidad con todas las caracteristicas descritas en la seccion de "caracteristicas de usuario"
 
+#### Tarea 
+Propuesta solida y alternativas plan B o C que queremos abordar por equipo
     

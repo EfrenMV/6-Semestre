@@ -152,3 +152,43 @@ Envía segmentos para ser encapsulados en un paquete IPv4 o IPv6
 ### 8.2.2 Campos de encabezado de paquete ipv4
 
 
+#### Repaso
+**¿Que Capa Osi envia segmentos para ser encapsulados en un paquete IPv4 o Ipv6?**
+Capa de transporte
+
+**¿Que capa es reponsable de tomar un paquete Ip y preprarlo para la transmision a traves del medio de comunicación?**
+Capa de enlace de datos-Subcapa Mac
+
+**¿Cuál es el término para divir un paquete Ip al renviarlo de un medio a otro medio con una MTU mas paqueña?**
+Fragmentación
+
+**¿Cuál es el binario equivalente a la dirección Ip 192.168.11.10?**
+110000.10101000.--------
+
+**¿Que protocolo realciona una direccion MAC fija con una dirección IP de un dispositivo de destino conocido?**
+ARC
+
+#### Clase 04/02
+**Tarjeta de red (NIC o adaptador Lan)**.- Proporciona la conección fisica usado por el medio que realiza la conexión a la PC
+
+**Puerto Fisico**: Conector o una boca en un dispositivo de red
+
+**Interfaz**: Puertos especializados en un dispositivo de internetworking que se conocetan a redes individuales
+
+**Dispositivos Finales**: Usados por el usaurio 
+- PC
+- Telefono Ip
+- Portaitl
+
+**Dispositivos Intermediarios**:
+- Raouter inalambrico (Modems).- Dispositivo de Capa 2
+- Switch LAN
+- Router
+- Switch de multicapa (Switch que puede enrutar).- Dispositivo de Capa 3
+
+**Medios de Red**:
+![Imagen de los medios de red](Imagenes/Medios_Red.jpg)
+
+**Diagramas de topología fisica**: Identifica la ubicación fisica de los dispositivos
+
+**Diagramas de topologia lígica**: Identifica dispositivos, puertos y el esquepa de direccionamiento IP.
