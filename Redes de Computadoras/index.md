@@ -187,11 +187,48 @@ ARC
 - Switch de multicapa (Switch que puede enrutar).- Dispositivo de Capa 3
 
 **Medios de Red**:
-![Imagen de los medios de red](Imagenes/Medios_Red.jpg)
+Azul: Ondas
+Negro: Cobre
+Cable rojo: Conexión punto a punto
+![Imagen de los medios de red](Imagenes/Clase_04_02/Medios_Red.jpg)
 
 **Diagramas de topología fisica**: Identifica la ubicación fisica de los dispositivos
-![Iamagen tologia Fisica](Imagenes/Topologia_Fisica.jpg)
+![Iamagen tologia Fisica](Imagenes/Clase_04_02/Topologia_Fisica.jpg)
 
 **Diagramas de topologia lígica**: Identifica dispositivos, puertos y el 
 esquepa de direccionamiento IP.
-![Iamagen tologia Logica](Imagenes/Topologia_logica.jpg)
+![Iamagen tologia Logica](Imagenes/Clase_04_02/Topologia_logica.jpg)
+
+**Red de area local**: Geograficamente pequeña (LAN)
+
+**Red de area extensa**: Mucho mas grande (WAN), Ciudades, estados, provincias.
+![Wan](Imagenes/Clase_04_02/Wan.jpg)
+
+**Lan inalámbrica**: las LAN ilamabrcias (WLAN, Wireless LAN) Similares a las LAN solo que interconectadas de forma inalambrica a los usuarios
+
+**Intranet**
+Conección privada de redes LAN y WAN, diseñala para una organización 
+- Compañia Unicamente
+
+**Extranet**
+Varias organisaciones trabajando en una red privada 
+- Provedor
+- Compañia 
+
+**Conexión de usuarios remotos a Internet**
+Cable: Servicio ofrecido por proveedores de servicios de telivisión por cable
+
+**DSL**:
+Conexión a internet permanente y un ancho de banda elevado, transmitida a traves de una linea telefonica, que esta dividida en tres canales.
+
+**Datos moviles**
+Red de lefonia celular.
+
+**Satelital**
+Para lugares donde estan muy lejos y no tengamos acceso a DLS o cable.
+
+**Telefonia por dail-up**
+Bajo costo que funciona con cualquier linea telefónica y modem, esta solo se deve conciderar cuando no hay otras opciones mas veloces 
+
+
+![Imagen general de todo](Imagenes/Clase_04_02/redes.jpg)
