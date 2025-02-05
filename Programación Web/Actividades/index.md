@@ -26,3 +26,4 @@ Usar IA si o si, ya sea
 2. Todo lo disponible para la web no usable para el proyecto 1
 3. Uno sorpresa con dos dias para resolverlo
 
+

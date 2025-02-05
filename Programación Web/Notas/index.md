@@ -39,3 +39,20 @@ Etiquetas fijas que ya hacen cosas
 
 Debemos de escribirle el mayusculas
 <!poctype html>
+
+
+#### Etiquetas
+**< title >** : Para los Titulos
+- nav: Para colocar un menu
+- Para el icon
+- Para el titulo
+**< Style >** : Pa que se vea bonito    
+- Interno: Declarados en el head
+- Externo: En el SSC
+**< base >:** Practicamente es para agarrar una imagen de un link
+< base href="https://www.w3schools.com/" target="_blank">
+**< link >:**
+**< meta >:** Pa metadata-> metadatos
+- Palabras claves para ser encontrado en el web
+**< script >:** Para JavaScript
+**< noscript >:**
