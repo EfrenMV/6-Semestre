@@ -149,6 +149,9 @@ No se puede fragmentar una ipv6
 - **Capa Osi de transporte**
 Envía segmentos para ser encapsulados en un paquete IPv4 o IPv6
 
+
+
+
 ### 8.2.2 Campos de encabezado de paquete ipv4
 
 
@@ -189,7 +192,7 @@ ARC
 **Medios de Red**:
 Azul: Ondas
 Negro: Cobre
-Cable rojo: Conexión punto a punto
+Cable rojo: Conexión punto a punto (Fibra optica)
 ![Imagen de los medios de red](Imagenes/Clase_04_02/Medios_Red.jpg)
 
 **Diagramas de topología fisica**: Identifica la ubicación fisica de los dispositivos
@@ -232,3 +235,59 @@ Bajo costo que funciona con cualquier linea telefónica y modem, esta solo se de
 
 
 ![Imagen general de todo](Imagenes/Clase_04_02/redes.jpg)
+
+
+
+### Capa de red Capa OSI 3, 05/02
+- IP version 4 (IPv4) 
+
+- **Direccionamiento de dispositivos finales:** Deben configurar con una direccion IP unica para la identificación en la red.
+
+- **Encapsulación:** PDU de la capa de transporte en un paquete. 
+al encapsular vamos de arriba hacia abajo, del 7 al 1 
+Este agrega un encabezado IP
+
+- **Enrutamiento:** Proporciona servicios para dirigir los paquetes por el mejor camino atraves de la red.
+    - Salto: Pasar de un roter a otro
+
+Un paquete tiene un tiempo de vida definido el cual nos dice cuantos saltos puede hacer
+
+- **Desencapsulación:** El host de destino elimina el encabeazado IP del paquete, este sigue el orden del encapsulamiento pero a la inversa
+
+1 hasta el 7
+
+**Capa de transporte PDU4**
+TSP: Seguro, se asegura que llegue sin errores.
+UDP: No Seguro, no le importa si llega con errores.
+
+### Encapsulación Ip
+NAT: Relaciona una ip privada a una interfas con ip publica.
+
+### 8.1.3 Caracteristicas de IP
+IP: Protocolo de sobrecarga baja
+TCP capa 4: Rastrea ni administra el flujo de paquetes
+
+- Sin Conexión: No hay conexión con el destino establecido
+    - Sin conexión-Analogía -> No requiere un intercambio de información inicial
+- Mejor esfuerzo: La Ip es inherentemente poco confiable,
+    - Busca la mejor forma/mas rapida de enviar los paquetes pero no asegura que todos los que se envien lleguen 
+- Medios independientes: Operación independiente del medio 
+    - Este no tiene información que pueda procesarse para informar al remitente si la entrega fue exitosa
+
+**Capa Fisica OSI 1**
+
+
+**Capa de enlace de datos OSI 2**
+MTU: Unidad de transmición maxima, tamaño maximo del paquete
+
+
+### 8.2.1 Encabezado de paquetes IPv4
+Este cuenta campos para garantizar la entrega 
+
+- Version: Valor que indentifica como un paquete IPv4
+- Servicios diferenciados o DiffServ (DS): Campo que se utiliza para determinar la prioridad de cada paquete
+- **Suma de comprobación de encabezado (checsum o algo asi):** Se utiliza para detectar daños en el encabezado IPv4
+- **Tiempo de duración (Time to Live, TTL):**  
+- **Protocolo:** Incluye valores comunes como ICMP TCP UDP
+- **Dirección IPv4 de origen:** Direccion unicast representa la direccion Ipv4 de origen
+- **Dirección Ipv4 de destino:** Direccion unicast, multicast o difusión, representa la dirección Ipv4 de destino
