@@ -52,3 +52,16 @@ SGBD mas usados
             - RECO (Recuperación)
     - Archivos
         - completar con los tipos de archivos de un gestor de BD
+
+### Clase 06/02
+**Arquitectura Fisica**
+1. Realiza un diagrama en donde se aprecie claramente la estrucetura fisisca de una BD 
+2. Especifica los ficheros fisicos junto con el esapcio en memoria con que cuenta cada uno de ellos
+3. Especifca los procesos de usuarios y explica en que consiste cada uno de ellos
+4. Documenta los archivos de control y su contenido 
+5. Documenta los archivso de datos y su contenido
+
+**Arquitectura Logica**
+1. Representa graficamente la distrivucion de la estructura logica de los espacios de tablas
+2. Los tipos de datos que soporta oracle
+3. Realiza una grafica de pastel donde representes la divicion que tiene las tablas en las memorias

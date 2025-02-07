@@ -284,10 +284,74 @@ MTU: Unidad de transmición maxima, tamaño maximo del paquete
 ### 8.2.1 Encabezado de paquetes IPv4
 Este cuenta campos para garantizar la entrega 
 
-- Version: Valor que indentifica como un paquete IPv4
-- Servicios diferenciados o DiffServ (DS): Campo que se utiliza para determinar la prioridad de cada paquete
+- **Version:** Valor que indentifica como un paquete IPv4, 0100
+- **Servicios diferenciados o DiffServ (DS):** Campo que se utiliza para determinar la prioridad de cada paquete
 - **Suma de comprobación de encabezado (checsum o algo asi):** Se utiliza para detectar daños en el encabezado IPv4
 - **Tiempo de duración (Time to Live, TTL):**  
-- **Protocolo:** Incluye valores comunes como ICMP TCP UDP
+- **Protocolo:** Identifica para que capa va el paquete ICMP TCP UDP
 - **Dirección IPv4 de origen:** Direccion unicast representa la direccion Ipv4 de origen
 - **Dirección Ipv4 de destino:** Direccion unicast, multicast o difusión, representa la dirección Ipv4 de destino
+
+#### 07/02
+
+**IPv4:** Sin contar relleno y coxiones tiene 12 campos 
+**Paquetes** se encampsulan en tramas
+En un paqute **se encapsulan**: Segmentos
+
+### 8.3.1 Limitaciones de IPv4
+
+**Agotamiento de la dirección IPv4**
+
+**Falta de conectividad de extermo a extremo**
+NAT: Es el que guarda la entrada al paquete, NAT lleva el paquete a su destino
+
+**Mayor complejidad de la red**
+NAT crea latencia
+
+### 8.3.2 Información general sobre IPv6
+
+**Manejo de paquetes mejorado**
+128 bits en lugar de Ipv4 con 32 bits
+
+**Mejor manejo de paquetes**
+Ipv6 se ha simplificado con menos campos
+
+**Elimina la necesidad de NAT**
+Ps no lo ocupamos
+
+### 8.3.3 Campos de encabezado de paquete Ipv4 en el encabezado de paquete IPv6
+
+IPv4 = **12 campos**
+Ipv6 = **8 campos**
+
+### 8.3.4 
+**Versión**: valor vinario de 4 bits- 0110
+**Clase de tráfico**: Equivalente al Campo de Servicios difrenciados de Ipv4 (diffServ Ipv4).
+**Etiqueta de flujo**:   Todos los paquetes con la misma etiqueta rebiben el mismo tipo de manejo de routers.
+**Longitud de carga util**: Indica la longitud de la porción de datos o carga util del paquete Ipv6.
+**Encabezado siguiente**: Indica el tipo de contenido.
+**Limiti de salto**: al llegar al 0 manda un aviso de que se llego al limite (Remplaza el tiempo de vida de IPv4)
+**Dirección Ipv6 de origen**: Donde vengo.
+**Dirección Ipv6 de destino**: Donde me derijo.
+
+### 8.4
+**Routers**: Trabajan en capa 3
+**Itself**: un host puede hacer ping a si mismo enviando un paquete a una direccioón IPv4 especial de 127.0.0.01
+**Host local**: El host de destino se encuentra en la misma red local
+**Host remoto**: El host de destino se encuentra en una red remota
+
+**Host**: Dispositivo fianl, puede establecer conexión con una misma red local, del router hacia adentro 
+- computadora
+- server
+
+**En ipv4**: Origen utiliza su propia mascara de subred junto con su propia dirección Ipv4
+**En ipv6**: El router local anuncia la direccion de red local 
+
+**Gateway**: Puerta que se utiliza para salir a internet, para hacer un Host remoto
+- Router o Switch de capa 3
+**Lan**: Capa 2 (enlace de datos)
+
+**Caracteristicas de un router**
+- Tiene una dirección Ip local
+- Puede aceptar datos en la red local
+- 
