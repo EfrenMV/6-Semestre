@@ -34,3 +34,4 @@ Técnicas que utilizan características del hardware para mejorar la eficiencia 
 EL Huesped ya sabe que esta virtualizado por ende coopera con el anfitrión pero no interactúa con el hardware. 
 
 por ejemplo el XEN
+
