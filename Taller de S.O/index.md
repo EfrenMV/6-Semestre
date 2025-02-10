@@ -18,3 +18,14 @@ Embebidos:
 **Nucle:** El corazon del S.O, es un intermediario entre el programa y el hardware 
 
 **Espacio de Usuario:** Practicamente seria las interfaces graficas 
+
+**Virualización**
+Emular una maquina o algun sistema sin tener que tenerla instalada
+- Alfitrion (host): Es el harware o sistema que ofrece la virtualización
+- Huesped (guest): Sistema o aplicaciones que se ejecutan en el entorno virtualizado. 
+
+**Emular**
+Es para simular el harware completo mediante software, permitiendo ejecutar software.
+
+**Virtualización asistida por hardware**
+Técnicas que utilizan características del hardware para mejorar la eficiencia de la virtualización

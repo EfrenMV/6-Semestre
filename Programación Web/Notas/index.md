@@ -1,4 +1,26 @@
+## indice
+- [U1](#u1)
+- [](#)
+- []()
+
+
+## Estudio
+#### Estructura basica
+<!DOCTYPE html >
+<html>
+<head>
+</head>
+<body>
+</body>
+</html>
+
+#### Titulo
+<h1> Titulo <h1> 
+<p> Parrafo <p> 
+<br> 
+
 # U1
+
 #### General
 La **informacion** que manejamos en web es **plana**
 **http:** Sin cifrar
