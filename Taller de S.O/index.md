@@ -34,4 +34,22 @@ Técnicas que utilizan características del hardware para mejorar la eficiencia 
 EL Huesped ya sabe que esta virtualizado por ende coopera con el anfitrión pero no interactúa con el hardware. 
 
 por ejemplo el XEN
+- Xen .- Utilizado por los hipervisores 
 
+
+## VPS(Virtual Private Server)
+Maquina virtual que actua como servidor dedicado en el entorno, tiene recursos asignados de manera exclusiva.
+- CPU.
+- RAM.
+- Almacenamiento. 
+- Comparte hardware fisico con otros en el VPS en el mismo anfitrion.
+ 
+**Independencia:** Cada VPS tiene su propio S.O
+**Escalabilidad:** Los recursos pueden ajustarse según las necesidades del usuario.
+**Aislamiento:** Los vps estan separados, lo que significa que el rendimiento o problema en uno no afectan a los demas.
+
+**Usos de uso**
+- Alojamiento web para sitios que requieren más recursos
+- Desarrollo y pruebas de aplicaciones en entornos controlados
+- Servidores de BD
+- Implementación de redes virtuales (VPN)

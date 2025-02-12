@@ -7,9 +7,60 @@
             margin: 50px;
         }
     </style>
+
+    <style>
+        table th, td{
+            width: 100px;
+            border: 2px solid white;
+            background-color: black;
+            border-collapse: collapse;
+            border-radius: 3px;
+            border-color: gray;
+        }
+    </style>
+
+    <style>
+        th,td{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 50px;
+            padding-right: 50px;
+        
+        }
+
+    </style>
+    
+    <style>
+        h3 {
+            text-align: center;
+            color: bisque;
+            background-color: black;
+        }
+    </style>
+
+    <style>
+        thead{
+            height: 50px;
+            width: 150px;
+            text-align: center;
+            color: darkkhaki;
+        }
+    </style>
+
+    <style>
+        tbody{
+            color: white;
+            text-align: left;
+        }
+    </style>
+
+
+
       <title>Tituo al lado del icono</title>
 </head>
+<body>
 <!-- Escribiendo un comentario-->
+    <h3>Formas de Texto</h3>
     <h1 style="background-color: rgb(123, 107, 107);">backgroundColor</h1>
     <h1 style="text-align:center">Centrando</h1>
     <h1 style="color: rgb(14, 137, 41);"> Heading parece que tenemos hasta h6 </h1>
@@ -31,6 +82,9 @@
     <sub> probando</sub> <br>
     <r>color</r>
      
+    <h1 style="border: 2px solid tomato;">Hola mundo</h1>
+
+   
     <p>Para citar:</p>
     
     <blockquote cite="http://www.worldwildlife.org/who/index.html">
@@ -45,6 +99,7 @@
 
     <p>abre <abbr title="abrebiatura probando"></abbr> Cirve para motores de busqueda</p>
 
+    
 <address>
 Escrito por Efren Mendez Villanueva <br>
 Probando dirección<br>
@@ -55,7 +110,56 @@ Mx
 
 <bdo dir="rtl">Probadno el texto</bdo>
 
-<h1 style="border: 2px solid tomato;">Hola mundo</h1>
 </address>
+
+<br>
+
+<h3>Tablas</h3>
+<table> <!-- Crear Tablas de forma vertical-->
+    <caption>Tabla en vertical</caption> <!-- Titulo de la tabla-->
+      
+    <!-- Campos en negritas -->
+    <tr>
+        <th>probando</th>
+        <td>Para</td>
+        <td>Para</td>
+        <td>Para</td>
+    </tr>
+    <tr>
+        <th>p2</th>
+        <td>Para</td>
+    </tr>
+    <tr>
+        <th>p3</th>
+        <td>Para</td>
+    </tr>
+
+</table>
+
+<br>
+<table>
+    <caption>Tabla de horizontal</caption>
+    <tr>
+        <thead>
+        <th colspan="2">Name</th>
+        <th>Flastn </th> 
+        <th>Slastn</th>
+        <th>Nuevo</th>
+        </thead>
+    </tr> <!-- Cerramos los camos-->
+    <!-- Campos en las tablas-->
+    <tr>
+        <tbody>
+    <td>Juan</td>
+    <td>Perez</td>
+    <td>Perez</td>
+    <td>relleno</td>
+    <th>relleno</th>
+        </tbody> 
+    </tr>
+
+</table>
+
+<h3>Otro tema</h3>
 </body>
 </html>

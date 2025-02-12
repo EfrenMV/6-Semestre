@@ -355,3 +355,9 @@ Ipv6 = **8 campos**
 - Tiene una dirección Ip local
 - Puede aceptar datos en la red local
 - 
+
+### 10/02/25
+
+### 8.5.1
+**Router local:** El que nosotros usamos
+**Tabla de enrutameinto:** COntiene entradas para saber donde enviar paquetes, prefijos u rutas
