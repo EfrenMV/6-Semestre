@@ -65,3 +65,32 @@ SGBD mas usados
 1. Representa graficamente la distrivucion de la estructura logica de los espacios de tablas
 2. Los tipos de datos que soporta oracle
 3. Realiza una grafica de pastel donde representes la divicion que tiene las tablas en las memorias
+
+
+### 14/02
+
+1. Identificar los dispositivos de almacenamiento
+2. Definir el tamño inicial 
+3. Crear el espacio
+4. Configurar el crecimiento automatico 
+
+**Ejemplo (SQL Server)**
+```SQL
+SQL
+CREATE DATABASE MiBaseDeDatos
+ON PRIMARY
+( NAME = MibaseDeDatos_Data,
+FILENAME = 'C:\Program Files\Microsoft 
+SQL
+Server\MSQL15.MASQLSERVER\DATA\MIBaseDeDatos.mdf'.
+SIZE = 5MB,
+MAXSIZE = UNLIMITED
+FILEGROWTH = 10%)
+
+```
+
+#### Concideraciones importantes:
+- Tamaño inicial
+- Crecimiento automatico
+- Fragmentación-
+- Multiples Archivos.

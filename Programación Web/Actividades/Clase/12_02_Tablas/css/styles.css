@@ -1,0 +1,159 @@
+/* Tablas en general */
+table{
+    width: 100%;
+}
+
+/* Tabla 1 */
+.tabla-1 {
+    border: 1px solid blue;
+}
+
+.thead-1 th {
+    border: 1px solid blue;
+}
+
+.tbody-1 td{
+    border: 1px solid blue;
+}
+
+/* Tabla 2 */
+.tabla-2 {
+    border-collapse: collapse; /* Como que lo junta */
+    border: 1px solid black;
+}
+
+.thead-2 th {
+    padding: 15px; /* Separa el texto de las orillas */
+    border: 1px solid black;
+}
+
+.tbody-2 td{
+    text-align: center; /* Asigna hacia donde se pondra en este caso centrado */
+    padding: 15px;
+    border: 1px solid black;
+}
+
+/* Tabla 3 */
+.tabla-3 {
+    border: 1px solid white;
+    border-collapse: collapse; /* Como que lo junta */
+     border-radius: 10px;
+ 
+}
+
+.thead-3 th {
+    color: green;
+     border-radius: 10px;
+    padding: 15px; /* Separa el texto de las orillas */
+    background-color: aqua;
+}
+
+.tbody-3 td{
+    color: white;
+     text-align: center; /* Asigna hacia donde se pondra en este caso centrado */
+    border-radius: 10px;
+    padding: 15px;
+    background-color: green;
+}
+
+/* Tabla 4 */
+.tabla-4 {
+    border: 5px solid black;
+    border-collapse: collapse; /* Como que lo junta */
+    border-style:dashed;
+
+}
+
+.thead-4 th {
+    color: green;
+    padding: 15px; /* Separa el texto de las orillas */
+    background-color: aqua;
+    border: white;
+    border-style:dashed;
+}
+
+.tbody-4 td{
+    color: white;
+    padding: 15px;
+    background-color: green;
+    border: white;
+    text-align: center; /* Asigna hacia donde se pondra en este caso centrado */
+    border-style:dashed;
+}
+
+
+/* Tabla 5 */
+.tabla-5 {
+    border: 5px solid black;
+    border-collapse: collapse; /* Como que lo junta */
+    border-style:dotted;
+
+}
+
+.thead-5 th {
+    color: green;
+    padding: 15px; /* Separa el texto de las orillas */
+    background-color: aqua;
+    border: white;
+    border-style:dotted;
+}
+
+.tbody-5 td{
+    color: white;
+    padding: 15px;
+    background-color: green;
+    border: white;
+    text-align: center; /* Asigna hacia donde se pondra en este caso centrado */
+    border-style:dotted;
+}
+
+/* Tabla 6 */
+.tabla-6 {
+    border: 5px solid black;
+    border-collapse: collapse; /* Como que lo junta */
+    border-style:double;
+
+}
+
+.thead-6 th {
+    color: darkorange;
+    padding: 15px; /* Separa el texto de las orillas */
+    background-color: black;
+    border: white;
+    border-style: double;
+}
+
+.tbody-6 td{
+    color: darkorange;
+    padding: 15px;
+    background-color: black;
+    border: white;
+    text-align: center; /* Asigna hacia donde se pondra en este caso centrado */
+    border-style:double;
+}
+
+/* Tabla 7 */
+.tabla-7 {
+    border: 5px solid red;
+    border-collapse: collapse; /* Como que lo junta */
+    border-style: groove;
+
+}
+
+.thead-7 th {
+    color: darkorange;
+    padding: 15px; /* Separa el texto de las orillas */
+    background-color: white;
+    border: red;
+    border-style: groove;
+}
+
+.tbody-7 td{
+    color: darkorange;
+    padding: 15px;
+    background-color: white;
+    border: red;
+    text-align: center; /* Asigna hacia donde se pondra en este caso centrado */
+    border-style: groove;
+}
+

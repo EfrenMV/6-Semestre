@@ -361,3 +361,72 @@ Ipv6 = **8 campos**
 ### 8.5.1
 **Router local:** El que nosotros usamos
 **Tabla de enrutameinto:** COntiene entradas para saber donde enviar paquetes, prefijos u rutas
+
+
+## Formas de Enroutar el ruter
+Configurar el nombre del dispositivo
+
+```cisco
+Router(config)# hostname hostname
+```
+
+
+```cisco
+Router(config)# line console 0
+Router(config-line)# password password
+Router(cinfig)
+```
+
+## 10.2.1 Configurar interfaces de routers
+
+```cisco
+GigabitEthernet 0/0/0 -> Abreviación (G0/0/0) 
+GigabitEthernet 0/0/1 -> Abreviación (G0/0/1)
+```
+Cuando se habilita una interfaz de enrutador, se deben mostrar mensajes de información confirmando el vinculo habilitado.
+
+**no shutdown**: 
+Se activa la interfaz y es similar a darle energía. La interfaz tambien debe estar conectada a otro dispisitivo, como un switch o router  **Practicamente la prendemos**
+
+## 10.2.3 Verificación de configuración de interfaz
+
+Muestra todas las interfaces, sus direcciones de IP y su estado actual.
+```cisco
+show ip interface brief
+show ipb6 interface brief
+```
+
+
+```Cisco
+show ipo route
+show ipv6 route
+```
+
+```Cisco
+ip address 192.168.10.1 255.255.255.0
+```
+
+```Cisco
+ipv6 address 2001:db8:acad:10::1/64
+```
+
+Lo encendemos 
+```Cisco
+no shutdown -> no shut
+```
+
+Regresar al modo de configuración normal
+```Cisco
+exit
+```
+
+## 10.3.1 Gateway predeterminado para un host
+Vimos que la conección local no ocupa pasar por el router
+La red reoma si ocupa pasar por el router
+## 10.3.2 Gateway predeterminado para un switch
+para configurar un gateway predeterminado en un switch es
+```Cisco
+ip default-gateway escribir ip del gateway
+```
+
+
