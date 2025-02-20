@@ -53,3 +53,13 @@ Maquina virtual que actua como servidor dedicado en el entorno, tiene recursos a
 - Desarrollo y pruebas de aplicaciones en entornos controlados
 - Servidores de BD
 - Implementación de redes virtuales (VPN)
+
+## Sistema Operativo propetario 
+Todo aquel con codigo no libre
+
+**Ventajas**
+- Control de calidad
+- Personal altamente capacitado
+- Uso común  
+
+**Desvenjas**
