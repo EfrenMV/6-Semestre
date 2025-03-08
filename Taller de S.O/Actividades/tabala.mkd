@@ -1,0 +1,20 @@
+| Característica         | Sistemas Operativos Propietarios | Sistemas Operativos Libres |
+|------------------------|----------------------------------|----------------------------|
+| **Ejemplos**          | Windows, macOS                  | Linux (Ubuntu, Archilinux, Kali)    |
+| **Tipo de licencia**          | Cerrada, de pago o con restricciones | Código abierto |
+| **Costo**            | Generalmente de pago o con licencias | Mayormente gratuitos |
+| **Código fuente**     | No accesible, controlado por la empresa | Disponible para su modificación |
+| **Personalización**   | Limitada a las opciones del fabricante | Alta, se puede modificar y adaptar |
+| **Seguridad**        | Depende del fabricante, parches cerrados | Revisión comunitaria, rápida corrección de errores |
+| **Soporte**          | Oficial, con costos adicionales en muchos casos | Comunidad, foros, empresas especializadas |
+| **Ejemplo de uso**    | Empresas, usuarios finales, gaming | Servidores, desarrollo, usuarios avanzados |
+| **Actualizaciones**   | Controladas por el fabricante, pueden ser obligatorias | Dependientes de la comunidad o distribuciones |
+| **Compatibilidad**    | Soporte para hardware y software populares | Puede requerir configuración adicional en algunos casos |
+
+
+## Bibliografía  
+
+### Artículos y Documentos en Línea
+- Free Software Foundation. (2021). *What is free software?* [https://www.fsf.org/about/what-is-free-software](https://www.fsf.org/about/what-is-free-software)  
+- Microsoft. (2023). *Windows operating system history.* [https://learn.microsoft.com/en-us/windows/whats-new/](https://learn.microsoft.com/en-us/windows/whats-new/)  
+- Linux Foundation. (2023). *Why Linux?* [https://www.linuxfoundation.org/about/why-linux](https://www.linuxfoundation.org/about/why-linux)  

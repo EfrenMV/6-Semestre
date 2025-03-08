@@ -1,0 +1,137 @@
+ /* head */
+
+.contenedorhead{
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100px;            
+  }
+
+.lupa{
+    margin-left: 20px;
+    width: 24px;
+ 
+}
+
+/* Fondo para el buscador */
+.search-container {
+    display: flex;
+    gap: 25px;
+    padding: 10px;
+    background-color: #282828; /* Color oscuro */
+    border-radius: 20px; /* Bordes redondeados */
+    width: 300px; /* Ajusta el ancho */
+}
+
+/* Fondo para el bus   or */
+.search-container input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white; /* Texto blanco */
+    font-size: 16px;
+}
+
+.search-container input::placeholder {
+    color: #b3b3b3; /* Color gris del placeholder */
+}
+
+ /* Body */
+
+ body{
+    background-color: black;
+}
+
+.contenedor {
+    display: flex;
+    height: 80vh; /* Ocupa toda la pantalla */
+    font-size: 1vw;
+}
+
+.contenedor-arriba{
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: white;
+  }
+
+.objetos{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.objeto1{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height: 13%;
+    gap: 10px;
+    background-color: #000000;
+}
+
+.fotoImagen{
+    padding-top: 10px;
+    height: 70px;
+    margin-left: 15px;
+    border-radius: 10%;
+}
+
+.audio1{
+    margin-top: 20px;
+}
+
+.Texto{
+font-family: sans-serif;
+}
+
+.TextoAbajo{
+    margin-top: 25px;
+    font-family: sans-serif;
+    margin-left: -72px;
+    color: #717171;
+   
+}
+
+p{
+    color: aliceblue;
+ }
+
+.objeto1:hover{
+    background-color: #282828;
+}
+
+
+.izquierda {
+    width: 30%;
+    overflow: auto;
+    background-color: #242424;
+ }
+ 
+ .medio{
+    width: 50%;
+    overflow: auto;
+    background: linear-gradient(to bottom, #717171, #000000);
+
+ }
+
+ .derecha {
+    width: 30%;
+    background-color: #242424;
+ }
+
+
+
+
+ /* foot */
+.foot{
+    font-size: 2vw;
+    width: 100%;
+    background-color: #000000;
+    color: aliceblue;
+
+        
+ }
+
+ 
